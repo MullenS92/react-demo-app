@@ -19,8 +19,8 @@ function App() {
       <Route path="/welcome/:name" component={Welcome} />
       <Route path="/clock" component={Clock} /> 
       <Route path="/contact" component={Contact} />
-      <Route component={Page404} />
       <Route path="/jeopardy" component={Jeopardy}/>
+      <Route component={Page404} />
     </Switch>
       <Navigation />
     </div>
