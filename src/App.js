@@ -15,7 +15,7 @@ function App() {
     <div>
     
     <Switch>
-      <Route exact path="/" render={(props) => <Welcome {...props} name="Anne" />} />
+      <Route exact path="/" render={(props) => <Welcome {...props} name="Nita" />} />
       <Route path="/welcome/:name" component={Welcome} />
       <Route path="/clock" component={Clock} /> 
       <Route path="/contact" component={Contact} />
